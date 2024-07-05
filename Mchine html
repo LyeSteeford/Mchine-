@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title class="textform">Datos de ususario</title>
     <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
     <section class="form-login">
@@ -12,8 +13,15 @@
       <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña">
       <input class="buttons" type="submit" name="" value="Ingresar">
       <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
-
     </section>
 
-  </body>
+    <div class = "opciones">
+        <select name="select">
+            <option value="value1"> Estamos en <b>Abril</b></option>
+            <option value="value2" selected> Estamos en Julio</option>
+            <option value="value3"> Estamos en Octubre</option>
+        </select>
+    </div>
+
+</body>
 </html>
