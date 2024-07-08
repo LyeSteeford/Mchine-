@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title class="textform">Datos de ususario</title>
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
-  <body>
-    <section class="form-login">
-      <h5>Formulario Login</h5>
-      <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
-      <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña">
-      <input class="buttons" type="submit" name="" value="Ingresar">
-      <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Para Machine Learning</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+ <h1 class = "tittle">Mastodonte a type</h1>
+ 
+ <!--Parte de Formularios-->
+   <section class="formulario-login">
+      <h5>Crear una nueva cuenta</h5>
+      <form id="formularioTag">
+        
+      <input id="userName" type="text" name="user" placeholder="Nombre de Usuario">
+      
+      <input id="password" type="password" name="password" placeholder="Contraseña">
+      
+      <input class="buttons" onclick="datos()" type="submit" value="Crear">
+      </form>
+     <p>
+      <a href="#">¿Ya tienes una cuenta?</a>
+     </p>
+      
     </section>
-
-    <div class = "opciones">
-        <select name="select">
-            <option value="value1"> Estamos en <b>Abril</b></option>
-            <option value="value2" selected> Estamos en Julio</option>
-            <option value="value3"> Estamos en Octubre</option>
-        </select>
-    </div>
-
+    <h3>
+      Tab to edit
+    </h3>
+	<script type="text/javascript" src="game.js"></script>
+	<script src="mchine.py">
+	</script>
 </body>
 </html>
